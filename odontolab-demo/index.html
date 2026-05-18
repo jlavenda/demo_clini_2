@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ODONTOLAB SOACHA — Clínica Odontológica en Soacha</title>
+
+<!-- ═══ SEO BÁSICO ═══ -->
+<meta name="description" content="Clínica odontológica en Soacha con tecnología moderna y atención personalizada. Blanqueamiento, implantes, ortodoncia, cirugía oral, diseño de sonrisa y más. Agenda tu cita hoy."/>
+<meta name="keywords" content="clínica odontológica Soacha, dentista Soacha, implantes Soacha, ortodoncia Soacha, blanqueamiento dental Soacha, Odontolab Soacha, odontología Cundinamarca"/>
+<meta name="author" content="Odontolab Soacha"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://demo-odontolab.netlify.app/"/>
+
+<!-- ═══ OPEN GRAPH ═══ -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://demo-odontolab.netlify.app/"/>
+<meta property="og:title" content="Odontolab Soacha — Clínica Odontológica en Soacha"/>
+<meta property="og:description" content="Transformamos tu sonrisa con tecnología de punta y un equipo especializado. Implantes, ortodoncia, diseño de sonrisa y más en Soacha."/>
+<meta property="og:image" content="https://demo-odontolab.netlify.app/img/hero.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="es_CO"/>
+<meta property="og:site_name" content="Odontolab Soacha"/>
+
+<!-- ═══ TWITTER/X CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Odontolab Soacha — Clínica Odontológica en Soacha"/>
+<meta name="twitter:description" content="Transformamos tu sonrisa con tecnología de punta y atención especializada en Soacha."/>
+<meta name="twitter:image" content="https://demo-odontolab.netlify.app/img/hero.jpg"/>
+
+<!-- ═══ GEO (SEO local) ═══ -->
+<meta name="geo.region" content="CO-CUN"/>
+<meta name="geo.placename" content="Soacha, Cundinamarca, Colombia"/>
+<meta name="geo.position" content="4.5792;-74.2158"/>
+<meta name="ICBM" content="4.5792, -74.2158"/>
+
+<!-- Favicon verde Odontolab -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='8' fill='%234d965f'/><path d='M12 5 C 7 5, 4 8, 4 14 C 4 19, 6 22, 7 27 C 8 31, 9 35, 12 35 C 14 35, 14 30, 16 28 C 17 27, 18 27, 19 27 C 20 27, 21 27, 22 28 C 24 30, 24 35, 26 35 C 29 35, 30 31, 31 27 C 32 22, 34 19, 34 14 C 34 8, 31 5, 26 5 C 23 5, 22 6, 20 7 C 18 6, 17 5, 14 5 Z' fill='white'/></svg>"/>
+<link rel="shortcut icon" href="favicon.png"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<!-- LOGO SVG gradient (reutilizado) -->
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true">
+  <defs>
+    <linearGradient id="toothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8f0d4"/>
+      <stop offset="100%" stop-color="#6ab87e"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#inicio">
+      <span class="mark">
+        <svg width="38" height="38" viewBox="0 0 40 40">
+          <path d="M12 5 C 7 5, 4 8, 4 14 C 4 19, 6 22, 7 27 C 8 31, 9 35, 12 35 C 14 35, 14 30, 16 28 C 17 27, 18 27, 19 27 C 20 27, 21 27, 22 28 C 24 30, 24 35, 26 35 C 29 35, 30 31, 31 27 C 32 22, 34 19, 34 14 C 34 8, 31 5, 26 5 C 23 5, 22 6, 20 7 C 18 6, 17 5, 14 5 Z"
+            fill="url(#toothGrad)"/>
+          <circle cx="14" cy="13" r="2.2" fill="white" opacity=".7"/>
+        </svg>
+      </span>
+      <span><strong>ODONTOLAB</strong></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="#contacto" class="btn btn-teal nav-cta-btn">Agenda tu Cita</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio"      onclick="closeMobile()">Inicio</a>
+    <a href="#servicios"   onclick="closeMobile()">Servicios</a>
+    <a href="#nosotros"    onclick="closeMobile()">Nosotros</a>
+    <a href="#testimonios" onclick="closeMobile()">Testimonios</a>
+    <a href="#contacto"    onclick="closeMobile()">Contacto</a>
+    <a href="#contacto" class="btn-mobile-cta" onclick="closeMobile()">Agenda tu Cita</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="inicio" class="hero" style="padding:0">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="badge"><i class="fa-solid fa-star star"></i> 5.0 — Calificación de pacientes</span>
+    <h1>Clínica Odontológica en Soacha <span class="accent">con Especialistas que Transforman Sonrisas</span></h1>
+    <p class="lede">Blanqueamiento, implantes, ortodoncia, cirugía oral y diseño de sonrisa con tecnología de última generación. Tu sonrisa merece lo mejor.</p>
+    <div class="hero-ctas">
+      <a href="#contacto" class="btn btn-teal">Agenda tu Cita Ahora <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="https://wa.me/573144339630" target="_blank" class="btn btn-outline-white"><i class="fa-brands fa-whatsapp"></i> Escríbenos por WhatsApp</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="val">5.0</span><span class="lbl">Google</span></div>
+      <div class="hero-stat"><span class="val">+8</span><span class="lbl">Servicios</span></div>
+      <div class="hero-stat"><span class="val">Lun &ndash; Sáb</span><span class="lbl">Atención</span></div>
+    </div>
+    <a href="#servicios" id="hero-arrow" style="
+      display:inline-block;margin-top:48px;color:rgba(255,255,255,.5);
+      font-size:22px;text-decoration:none;
+      animation:heroBounce 1.8s ease-in-out infinite;
+      transition:color .2s;
+    " aria-label="Ver servicios">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section id="servicios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="pill">Nuestros Servicios</span>
+      <h2 class="h2">Soluciones Dentales Integrales <span class="accent-blue">en Soacha</span></h2>
+      <p>Desde estética hasta cirugía oral, contamos con los especialistas y la tecnología que tu sonrisa necesita</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal reveal-d1" id="svc-blanqueamiento">
+        <div class="icon-bubble"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <h3>Blanqueamiento Dental</h3>
+        <p>Recupera el brillo natural de tus dientes con tratamientos de blanqueamiento profesional seguros y efectivos.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Blanqueamiento en consultorio</li>
+          <li><i class="fa-solid fa-check"></i> Blanqueamiento en casa</li>
+          <li><i class="fa-solid fa-check"></i> Resultados desde la 1.ª sesión</li>
+          <li><i class="fa-solid fa-check"></i> Sin daño al esmalte</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d2" id="svc-carillas">
+        <div class="icon-bubble"><i class="fa-solid fa-gem"></i></div>
+        <h3>Carillas y Coronas</h3>
+        <p>Carillas de porcelana y coronas dentales de alta calidad para restaurar la forma, color y función de tus dientes.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Carillas de porcelana</li>
+          <li><i class="fa-solid fa-check"></i> Carillas de resina</li>
+          <li><i class="fa-solid fa-check"></i> Coronas cerámicas</li>
+          <li><i class="fa-solid fa-check"></i> Resultado natural</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d3" id="svc-cirugia">
+        <div class="icon-bubble"><i class="fa-solid fa-user-doctor"></i></div>
+        <h3>Cirugía Oral</h3>
+        <p>Extracciones complejas, terceros molares y procedimientos quirúrgicos con la mayor seguridad y confort para el paciente.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Extracción de muelas del juicio</li>
+          <li><i class="fa-solid fa-check"></i> Cirugía de tejidos blandos</li>
+          <li><i class="fa-solid fa-check"></i> Anestesia local efectiva</li>
+          <li><i class="fa-solid fa-check"></i> Seguimiento postoperatorio</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d4" id="svc-implantes">
+        <div class="icon-bubble"><i class="fa-solid fa-tooth"></i></div>
+        <h3>Implantes Dentales</h3>
+        <p>Recupera tu sonrisa completa con implantes de titanio de alta resistencia. La solución más duradera para dientes perdidos.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Implantes unitarios</li>
+          <li><i class="fa-solid fa-check"></i> Implantes múltiples</li>
+          <li><i class="fa-solid fa-check"></i> Alta tasa de éxito</li>
+          <li><i class="fa-solid fa-check"></i> Planificación 3D</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d1" id="svc-ortodoncia">
+        <div class="icon-bubble"><i class="fa-solid fa-equals"></i></div>
+        <h3>Ortodoncia</h3>
+        <p>Brackets y alineadores invisibles para corregir la posición de tus dientes y lograr una sonrisa perfectamente alineada.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Brackets metálicos</li>
+          <li><i class="fa-solid fa-check"></i> Brackets estéticos</li>
+          <li><i class="fa-solid fa-check"></i> Alineadores invisibles</li>
+          <li><i class="fa-solid fa-check"></i> Retenedores</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d2" id="svc-endodoncia">
+        <div class="icon-bubble"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3>Endodoncia</h3>
+        <p>Tratamientos de conducto modernos para salvar tus dientes naturales. Procedimientos sin dolor con tecnología avanzada.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Tratamiento de conducto</li>
+          <li><i class="fa-solid fa-check"></i> Endodoncia rotacional</li>
+          <li><i class="fa-solid fa-check"></i> Retratamientos</li>
+          <li><i class="fa-solid fa-check"></i> Sin dolor</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d3" id="svc-protesis">
+        <div class="icon-bubble"><i class="fa-solid fa-teeth-open"></i></div>
+        <h3>Prótesis Dental</h3>
+        <p>Prótesis removibles y fijas personalizadas para restaurar tu mordida, estética y calidad de vida de forma efectiva.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Prótesis totales</li>
+          <li><i class="fa-solid fa-check"></i> Prótesis parciales</li>
+          <li><i class="fa-solid fa-check"></i> Puentes dentales</li>
+          <li><i class="fa-solid fa-check"></i> Ajuste personalizado</li>
+        </ul>
+      </div>
+
+      <div class="service-card reveal reveal-d4" id="svc-diseno">
+        <div class="icon-bubble"><i class="fa-solid fa-face-smile-beam"></i></div>
+        <h3>Diseño de Sonrisa</h3>
+        <p>Planificación digital de tu nueva sonrisa combinando blanqueamiento, carillas y ortodoncia para un resultado armonioso.</p>
+        <ul class="feat-list">
+          <li><i class="fa-solid fa-check"></i> Análisis facial digital</li>
+          <li><i class="fa-solid fa-check"></i> Simulación previa</li>
+          <li><i class="fa-solid fa-check"></i> Tratamiento personalizado</li>
+          <li><i class="fa-solid fa-check"></i> Resultado garantizado</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NOSOTROS ============ -->
+<section id="nosotros" class="nosotros">
+  <div class="container">
+    <div class="nosotros-grid reveal">
+      <div>
+        <img src="img/equipo.jpg" alt="Equipo Odontolab Soacha" />
+      </div>
+      <div>
+        <span class="small-eyebrow">/ Quiénes Somos</span>
+        <h2>Especialistas comprometidos con la salud dental de Soacha</h2>
+        <p>En Odontolab Soacha reunimos un equipo de profesionales con amplia experiencia en las distintas ramas de la odontología. Nuestro compromiso es ofrecerte tratamientos de alta calidad en un ambiente cómodo, seguro y de confianza.</p>
+        <p>Contamos con equipos de última generación y un enfoque centrado en el paciente, porque entendemos que cada persona tiene necesidades diferentes. Tu salud dental y tu tranquilidad son nuestra prioridad.</p>
+        <ul class="check-list">
+          <li><span class="ck"><i class="fa-solid fa-check"></i></span> Atención personalizada para cada paciente</li>
+          <li><span class="ck"><i class="fa-solid fa-check"></i></span> Tecnología de última generación</li>
+          <li><span class="ck"><i class="fa-solid fa-check"></i></span> Equipo de especialistas certificados</li>
+          <li><span class="ck"><i class="fa-solid fa-check"></i></span> Ubicación céntrica y de fácil acceso en Soacha</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POR QUÉ ============ -->
+<section class="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="h2">¿Por qué los pacientes <span class="accent-blue">nos eligen</span>?</h2>
+      <p>Razones que nos hacen diferentes en Soacha</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal reveal-d1">
+        <div class="num">01</div>
+        <div class="ic"><i class="fa-solid fa-user-doctor"></i></div>
+        <h3>Equipo Especializado</h3>
+        <p>Contamos con especialistas en cada área de la odontología para ofrecerte el mejor tratamiento según tu necesidad específica.</p>
+      </div>
+      <div class="why-card reveal reveal-d2">
+        <div class="num">02</div>
+        <div class="ic"><i class="fa-solid fa-microscope"></i></div>
+        <h3>Tecnología Moderna</h3>
+        <p>Equipos de última generación para diagnósticos precisos y tratamientos más efectivos, cómodos y seguros.</p>
+      </div>
+      <div class="why-card reveal reveal-d3">
+        <div class="num">03</div>
+        <div class="ic"><i class="fa-solid fa-wallet"></i></div>
+        <h3>Precios Accesibles</h3>
+        <p>Calidad profesional a precios justos. Ofrecemos opciones y planes adaptados a las posibilidades de cada paciente.</p>
+      </div>
+      <div class="why-card reveal reveal-d4">
+        <div class="num">04</div>
+        <div class="ic"><i class="fa-solid fa-location-dot"></i></div>
+        <h3>Ubicación Estratégica</h3>
+        <p>Fácil acceso en Soacha. Cra. 18H #7-81, cerca del centro, con rutas de transporte disponibles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIOS ============ -->
+<section id="testimonios" class="testimonios">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="h2">Historias <span class="accent-blue">que sonríen</span></h2>
+      <span class="test-eyebrow">(Lo que dicen nuestros pacientes)</span>
+    </div>
+
+    <div class="test-card" id="testCard">
+      <span class="rating-pill"><i class="fa-solid fa-star star"></i> <span id="ratingNum">5.0</span></span>
+      <div class="quote-mark"><i class="fa-solid fa-quote-left"></i></div>
+      <p class="test-quote" id="testQuote">Me hicieron el blanqueamiento dental y quedé increíblemente satisfecha. El resultado fue natural y el proceso muy cómodo. El equipo fue atento en todo momento.</p>
+      <div class="test-person">
+        <div class="test-avatar" id="testAvatar">P</div>
+        <div>
+          <div class="test-name" id="testName">Paola Ramírez</div>
+          <div class="test-loc" id="testLoc">Soacha, Cundinamarca</div>
+        </div>
+      </div>
+      <div class="stars" id="testStars">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+
+      <div class="test-dots" id="testDots"></div>
+      <div class="test-controls">
+        <button class="test-btn" id="prevBtn" aria-label="Anterior"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="test-btn active" id="nextBtn" aria-label="Siguiente"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section id="contacto" class="contacto">
+  <div class="container">
+    <div class="contacto-grid reveal">
+      <div class="map-col">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.2!2d-74.2158!3d4.5710!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCra.+18H+%237-81+Soacha!5e0!3m2!1ses!2sco!4v1"
+            loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa Odontolab Soacha"></iframe>
+        </div>
+      </div>
+      <div>
+        <h2>Visítanos en <span class="accent">Soacha</span></h2>
+
+        <div class="info-row">
+          <div class="info-ic"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <strong>Dirección</strong>
+            <span>Cra. 18H #7-81, Soacha, Cundinamarca, Colombia</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-ic"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <strong>Teléfono / WhatsApp</strong>
+            <span>314 433 9630</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-ic"><i class="fa-regular fa-clock"></i></div>
+          <div>
+            <strong>Horario de Atención</strong>
+            <span>Lunes a sábado 10:00 a.m. – 7:00 p.m. · Domingo cerrado</span>
+          </div>
+        </div>
+
+        <div class="ct-cta">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Cra.+18H+%237-81,+Soacha,+Cundinamarca,+Colombia" target="_blank" class="btn btn-navy"><i class="fa-solid fa-location-dot"></i> Cómo Llegar</a>
+          <a href="tel:+573144339630" target="_blank" class="btn btn-outline-navy"><i class="fa-solid fa-phone"></i> Llamar Ahora</a>
+        </div>
+
+        <form class="form-grid" action="https://formspree.io/f/XXXXXXXX" method="POST" onsubmit="return handleSubmit(event)">
+          <input type="text" name="nombre" class="input" placeholder="Tu nombre completo" required />
+          <input type="tel" name="telefono" class="input" placeholder="Tu teléfono" required />
+          <input type="email" name="email" class="input full" placeholder="Tu correo electrónico" required />
+          <select name="servicio" class="select full" required>
+            <option value="">¿Qué servicio te interesa?</option>
+            <option>Blanqueamiento dental</option>
+            <option>Carillas y coronas</option>
+            <option>Cirugía oral</option>
+            <option>Implantes dentales</option>
+            <option>Ortodoncia</option>
+            <option>Endodoncia</option>
+            <option>Prótesis dental</option>
+            <option>Diseño de sonrisa</option>
+          </select>
+          <textarea name="mensaje" class="textarea full" placeholder="Cuéntanos qué necesitas..."></textarea>
+          <p class="full" style="margin:0;font-size:12px;color:var(--muted);">Al enviar aceptas nuestra <a href="politica-privacidad.html" style="color:var(--teal-700);text-decoration:underline;">política de tratamiento de datos</a> (Ley 1581/2012).</p>
+          <button type="submit" class="send-btn full">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band" style="padding:90px 24px">
+  <div class="reveal">
+    <h2>Tu Sonrisa Perfecta Comienza Aquí</h2>
+    <p>Agenda tu cita hoy y descubre lo que un equipo de especialistas comprometidos puede hacer por tu sonrisa.</p>
+    <a href="#contacto" class="btn btn-white">Agendar Cita Ahora <i class="fa-solid fa-arrow-right"></i></a>
+    <div class="cta-meta">Respuesta en menos de 2 horas · Atención sin compromiso</div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="ft-top">
+      <div class="ft-logo">
+        <span class="mark">
+          <svg width="38" height="38" viewBox="0 0 40 40">
+            <path d="M12 5 C 7 5, 4 8, 4 14 C 4 19, 6 22, 7 27 C 8 31, 9 35, 12 35 C 14 35, 14 30, 16 28 C 17 27, 18 27, 19 27 C 20 27, 21 27, 22 28 C 24 30, 24 35, 26 35 C 29 35, 30 31, 31 27 C 32 22, 34 19, 34 14 C 34 8, 31 5, 26 5 C 23 5, 22 6, 20 7 C 18 6, 17 5, 14 5 Z"
+              fill="url(#toothGrad)"/>
+          </svg>
+        </span>
+        <span class="name">ODONTOLAB</span>
+      </div>
+      <p class="ft-tag">Clínica odontológica en Soacha con especialistas comprometidos con tu salud dental y bienestar.</p>
+    </div>
+
+    <div class="ft-cols">
+      <div>
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#svc-blanqueamiento">Blanqueamiento</a></li>
+          <li><a href="#svc-carillas">Carillas y Coronas</a></li>
+          <li><a href="#svc-implantes">Implantes Dentales</a></li>
+          <li><a href="#svc-ortodoncia">Ortodoncia</a></li>
+          <li><a href="#svc-diseno">Diseño de Sonrisa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Más Servicios</h4>
+        <ul>
+          <li><a href="#svc-cirugia">Cirugía Oral</a></li>
+          <li><a href="#svc-endodoncia">Endodoncia</a></li>
+          <li><a href="#svc-protesis">Prótesis Dental</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Información</h4>
+        <ul>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+          <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+          <li><a href="politica-privacidad.html#cookies">Política de Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ft-bottom">
+      <span class="ft-script">Sonrisas Saludables</span>
+      <span class="ft-cr">© 2025 ODONTOLAB. Todos los derechos reservados.<br/>Cra. 18H #7-81, Soacha, Colombia. · Sitio web por <a href="#" class="libeldata-link" style="color:var(--teal);font-weight:700;">Libeldata</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SCROLL TO TOP ============ -->
+<button id="scroll-top" aria-label="Volver arriba" style="
+  position:fixed;bottom:26px;left:26px;z-index:40;
+  width:46px;height:46px;border-radius:50%;
+  background:rgba(31,45,61,.75);color:#fff;border:none;cursor:pointer;
+  display:grid;place-items:center;font-size:18px;
+  box-shadow:0 4px 16px rgba(0,0,0,.2);
+  opacity:0;pointer-events:none;
+  transition:opacity .3s, transform .3s, background .2s;
+  backdrop-filter:blur(4px);
+">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<!-- WhatsApp FAB -->
+<a class="wa-fab" href="https://wa.me/573144339630" target="_blank" aria-label="WhatsApp">
+  <span class="badge-dot"></span>
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="js/main.js"></script>
+
+<!-- ============ COOKIE BANNER ============ -->
+<div id="cookie-banner" style="
+  position:fixed;bottom:0;left:0;right:0;z-index:999;
+  background:#fff;border-top:1px solid #E8E5E1;
+  padding:18px 24px;
+  box-shadow:0 -4px 24px rgba(0,0,0,.08);
+  font-family:'Mulish',sans-serif;font-size:14px;color:#5C5048;
+  transform:translateY(100%);transition:transform .4s ease;
+">
+  <div style="max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:80px;">
+    <p style="margin:0;line-height:1.5;">
+      Usamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra
+      <a href="politica-privacidad.html#cookies" style="color:var(--teal-700);font-weight:700;text-decoration:none;transition:color .2s, text-decoration .2s;"
+         onmouseover="this.style.color='#1F2D3D';this.style.textDecoration='underline';"
+         onmouseout="this.style.color='#2e5e3b';this.style.textDecoration='none';"
+      >Política de Cookies</a>.
+    </p>
+    <button id="cookie-accept">Aceptar</button>
+  </div>
+</div>
+
+<script>
+  (function(){
+    var banner = document.getElementById('cookie-banner');
+    if(!localStorage.getItem('cookiesOdontolab')){
+      setTimeout(function(){ banner.style.transform = 'translateY(0)'; }, 800);
+    }
+    document.getElementById('cookie-accept').addEventListener('click', function(){
+      localStorage.setItem('cookiesOdontolab','true');
+      banner.style.transform = 'translateY(100%)';
+    });
+  })();
+
+  function closeMobile(){
+    document.getElementById('menuBtn').classList.remove('open');
+    document.getElementById('mobileMenu').classList.remove('open');
+  }
+</script>
+
+</body>
+</html>
